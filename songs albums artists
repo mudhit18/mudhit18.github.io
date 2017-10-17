@@ -1,0 +1,33 @@
+<style>
+table,th,td {
+ border: 1px solid black;
+}
+
+#favorite {
+    color: red;
+
+</style>
+
+<table>
+    <tr>
+        <th>Song</th>
+        <th>Album</th>
+        <th>Artist</th>
+     </tr>
+     <tr id="favorite">
+         <td>Faded</td>
+         <td colspan="2"Faded</td>
+         <td>Alan Walker</td>
+    </tr>
+    <tr>
+         <td id="favorite">Shape of you</td>
+         <td>Shape of you</td>
+         <td>Ed Sheeran</td>
+    </tr>
+    <tr>
+         <td>Let me love you</td>
+         <td>Let me love you</td>
+         <td>Justin Bieber</td>
+    </tr>
+    </table>
+    
