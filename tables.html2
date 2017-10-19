@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <style>
+    }
+    img {
+         width: 250px;
+         height:150px;
+         display: block;
+         margin: auto;
+         
+         
+         }
+         
+        table,th,td{
+        border:1 px solid black;
+        }
+        #okay {color:red;}
+      </style>
+          <a href= "text-align:centre;">Movies</h1>
+          <img src="https://pbs.twimg.com/media/DHIDnDrUIAEkpqq.jpg">
+<table>
+<tr>
+<th>Title</th>
+<th>Summary</th>
+<th>Rating</th>
+</tr>
+<tr>
+    <td>The Foreigner</td>
+    <td>Dad's daughter gets killed in explosion, man takes revenge for his daughter</td>
+    <td>7.4/10</td>
+</tr>
+
+<tr>
+    <td>Jurassic world</td>
+    <td>It's a zoo of dinosaurs, they break out and create destruction</td>
+    <td>7/10</td>
+</tr>
+
+<tr>
+    <td>Annabelle creation</td>
+    <td>Former toy maker Sam Mullins and his wife, Esther, are happy to welcome a nun and six orphaned girls into their California farmhouse. Years earlier, the couple's 7-year-old daughter Annabelle died in a tragic car accident. Terror soon strikes when one child sneaks into a forbidden room and finds a seemingly innocent doll that appears to have a life of its own.</td>
+</tr>
+
+</table>
+
+     <h1 style="text-align:centre;"> Songs</h1>
+     
+     
+     
+<table id=songs>
+<tr id=songsH>
+     <th><i>Title</i></th>
+     <th><i>Artist</i></th>
+     <th><i>Link</i></th>
+</tr>
+<tr>
+   <td>Beat it</td>
+   <td>Micheal Jackson</td>
+   <td>Thriller</td>
+
