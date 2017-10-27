@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+img{
+    width: 100px;
+    height: 150px;
+    float: right;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Enver Creek Secondary</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Main</li>
+      <li>Clubs and Teams</li>
+      <li>Departments</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+      <h1>Robotics</h1>
+    <p>The Enver Creek Robotics team specializes in modern technology,allowing students to build robots that square off against the robots of other teams.</p>
+  </div>
+  
+    <div class="column content">
+    <img src="http://hdch.org/wp-content/uploads/2017/05/soccer_generic.jpg"
+    <h1>Football</h1>
+    <p>Enver Creek's football team is a great oppurtunity for athletes of all skill to come and play friendly games against other schools.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer Text</p>
+</div>
+
+</body>
+</html>
