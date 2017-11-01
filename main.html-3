@@ -1,0 +1,98 @@
+<!DOCTYPE.html>
+<html>
+<head>
+<style>
+img {
+    float: right;
+    heigth: 170px;
+    width: 170px;
+}
+.article {
+        padding: 15px;
+    margin: 20px 0 20px;
+    background-color: teal;
+    text-align: left;
+    color: white;
+    font-family: arial;
+}
+ .container {
+     background-color: white;
+}
+li {
+    color:white;
+    background-color:tael;
+    padding: 10px;
+    margin: 20px 0 20px;
+}
+ div.container {
+     width: 100%;
+     border: 1px soild gray;
+}
+ header, footer {
+      padding: 1em;
+      color: white;
+      background-color: maroon;
+      clear: left;
+      text-align: center;
+}
+nav {
+     float: left;
+     max-width: 160px;
+     margin: 0;
+     padding: 1em;
+}
+ nav ul {
+     list-style-type: none;
+     padding: 0;
+}
+ nav ul a {
+      text-decoration: none;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+ </style>
+ </head>
+ <body>
+ 
+ <div class="container">
+ 
+ <header>
+     <h1>Enver Creek Teams and Clubs</h1>
+ </header>
+ 
+ <nav>
+   <ul>
+     <li><a href="https://mudhit18.github.io/enver.html">Home</a></li>
+     <li><a herf="mudhit18.github.io/teams.html">Schedule</a></li>
+     <li><a href="mudhit18.github.io/contact us.html">Contact us</a></li>
+   </ul>
+  </nav>
+  
+  <article>
+       <div class="article">
+            <h2>Soccer</h2>
+            <img src="https://classic105.s3.amazonaws.com/wp-content/uploads/2017/08/football.jpg">
+            <p>Enver Creek's soccer team is a great place to try out and play a team. Learn important values on and off the field. Travel to other cities and schools and have a competitive or friendly match.</p>
+            </div>
+            <div class="article">
+            <h2>Volleyball</h2>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51bODocvHlL.jpg">
+            <p>Enver Creek's volleyball team is a good opportunity to become athletic. Learn new ways to play, adapt to different situations and meet new and different people.</p>
+            </div>
+            <div class="article">
+            <h2>Basketball</h2>
+            <img src="http://canadawesthoops.com/wp-content/uploads/2016/11/p-jalal-ubc.jpg">
+            <p>Enver Creek's basketball team is a good oppurtunity to try out and play in the team.Learn new tricks in basketball and become a perfect player.</p>
+            </div>
+          </article>
+          
+<footer>Contact us by email! : Envercreek@surreyschools.com</footer>
+
+</div>
+
+</body>
+</html>
