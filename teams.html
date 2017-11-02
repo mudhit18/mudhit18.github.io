@@ -1,42 +1,119 @@
-<!DOCTYPE html>
+<!DOCTYPE.html>
 <html>
 <head>
 <style>
-    .header, .footer {
-       width: 100%;
-       heigth: 75px;
-       background-color: blue;
-       text-align: center;
-       color: white;
-       font-family: sans-serif;
+img {
+    float: right;
+    heigth: 170px;
+    width: 170px;
+}
+
+ .header, .footer {
+      padding: 1em;
+      color: white;
+      background-color: maroon;
+      clear: left;
+      text-align: center;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+
+.column {
+	float: left;
     }
-    
-    .article {
-        background-color: teal;
-        color: white;
-        margin: 20px 0 20px 0;
-        padding: 20px;
-        font-family: sans-serif;
-   }
-    
-</style>
-</head>
+
+.content {
+    width: 65%;
+    float: right;
+     padding: 15px;
+    margin: 20px 0 20px;
+    background-color: teal;
+    text-align: left;
+    color: white;
+    font-family: arial;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+
+.more {
+	float:right;
+    }
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+    color: white;
+    font-family: Georgia;
+    }
 
 
-<body>
-    <div class="header">
-         <h1>Enver Creek Teams</h1>
-    </div>
-    
-    <div class="article">
-    <h1>Soccer</h1>
-    <p>The Enver Creek Robotics team specializes in modern technology,allowing students to build robots that square off against the robots of other teams.</p>
-    </div>
-    
-    <div class="footer">
-        <p>Contact Us: 604-542-8749</p>
-    </div>
-    
-    
- </body>
- </html>
+ </style>
+ </head>
+ <body>
+ 
+
+ 
+ <div class="header">
+     <h1>Enver Creek Teams and Clubs</h1>
+ </div>
+ 
+ <div class="clearfix">
+   <div class="column menu">
+   <ul>
+     <li><a href="https://mudhit18.github.io/enver.html">Home</a></li>
+     <li><a href="https://mudhit18.github.io/teams.html">Schedule</a></li>
+     <li><a href="https://mudhit18.github.io/contact us.html">Contact Us</a></li>
+   </ul>
+  </div>
+  
+       <div class="column content">
+            <h2>Soccer</h2>
+            <img src="https://classic105.s3.amazonaws.com/wp-content/uploads/2017/08/football.jpg">
+            <p>Enver Creek's soccer team is a great place to try out and play a team. Learn important values on and off the field. Travel to other cities and schools and have a competitive or friendly match.</p>
+            </div>
+            
+            <div class="column content more">
+            <h2>Volleyball</h2>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/51bODocvHlL.jpg">
+            <p>Enver Creek's volleyball team is a good opportunity to become athletic. Learn new ways to play, adapt to different situations and meet new and different people.</p>
+            </div>
+            
+            <div class="column content more">
+            <h2>Basketball</h2>
+            <img src="http://canadawesthoops.com/wp-content/uploads/2016/11/p-jalal-ubc.jpg">
+            <p>Enver Creek's basketball team is a good oppurtunity to try out and play in the team.Learn new tricks in basketball and become a perfect player.</p>
+            </div>
+            
+          </div>
+          
+<div class="footer">
+<p>Contact us by email! : Envercreek@surreyschools.com</p>
+
+</div>
+
+</body>
+</html>
