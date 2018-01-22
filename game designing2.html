@@ -1,0 +1,32 @@
+confirm("Are you ready to play the game?");
+var age = prompt("What is your age?");
+if (age < 14) {
+  alert("We take no responsibility for the content of this game!");
+} else {
+  alert("Welcome to the adventure!");
+}
+
+alert("You are a hunter and you are in the Tsingy forest, Madagascar. You are searching for deers and bears as you are walking through the forest you run into a group of hyena.You being scared hit one of the hyena's and they become aggressive.They are coming towards you. You have two choices either run or face them? Do you Fight them or do you Run?");
+var userChoice = prompt("What choice do you make? Fight or run?").toUpperCase();
+switch (userChoice) {
+  case 'FIGHT':
+    var strong = prompt("Are you strong (YES or NO)?").toUpperCase();
+    var smart = prompt("Are you smart?").toUpperCase();
+    if (strong === 'YES' || smart === 'YES') {
+      alert("You only need one of the two! You beat the group of hyenas with your rifle or trap them--nice work!");
+    } else {
+      alert("You're not strong OR smart? Well, if you were smarter, you probably wouldn't have tried to fight the hyenas. You lose!");
+    }
+    break;
+  case 'RUN':
+    var fast = prompt("Are you fast (YES or NO)?").toUpperCase();
+    var headStart = prompt("Did you get a good start?").toUpperCase();
+    if (fast === 'YES' || headStart === 'YES') {
+      alert("You got away! You escaped and survived.");
+    } else {
+      alert("You're not fast and you didn't get a head start? You never had a chance! The hyenas eat you.");
+    }
+    break;
+  default:
+    alert("Whoops, you entered an invalid command");
+    }
